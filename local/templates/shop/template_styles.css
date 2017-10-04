@@ -34,9 +34,9 @@
   font-stretch: normal;
   unicode-range: U+0020-00FE; }
 @font-face {
-  font-family: 'Rockwell Bold';
-  src: url("Rockwell-BoldItalic.eot");
-  src: url("Rockwell-BoldItalic.eot?#iefix") format("embedded-opentype"), url("Rockwell-BoldItalic.woff2") format("woff2"), url("Rockwell-BoldItalic.woff") format("woff"), url("Rockwell-BoldItalic.svg#Rockwell-BoldItalic") format("svg");
+  font-family: 'Rockwell';
+  src: url("fontie-package/Rockwell.eot");
+  src: url("fontie-package/Rockwell.eot?#iefix") format("embedded-opentype"), url("fontie-package/Rockwell.woff2") format("woff2"), url("fontie-package/Rockwell.woff") format("woff"), url("fontie-package/Rockwell.svg#Rockwell") format("svg");
   font-weight: 700;
   font-style: italic;
   font-stretch: normal;
@@ -109,7 +109,7 @@
       left: 10px;
       text-decoration: none;
       color: white;
-      font-family: "Rockwell Bold";
+      font-family: "Rockwell";
       font-size: 20px; }
   .header .flex-container {
     display: flex;
@@ -175,7 +175,17 @@
 .header_panel p {
   color: #D9492A;
   font-size: 20px;
-  font-family: "Rockwell Bold"; }
+  font-family: "Rockwell italic";
+  position: absolute;
+  left: 38px;
+  top: 23px; }
+.header_panel span {
+  color: #228281;
+  font-size: 30px;
+  font-family: "Rockwell";
+  position: absolute;
+  left: 37px;
+  top: 46px; }
 
 .gg {
   background: repeating-linear-gradient(-45deg, transparent, transparent 9px, rgba(143, 77, 63, 0.1) 1px, rgba(143, 77, 63, 0.1) 10px), repeating-linear-gradient(45deg, transparent, transparent 9px, rgba(143, 77, 63, 0.1) 1px, rgba(143, 77, 63, 0.1) 10px);
