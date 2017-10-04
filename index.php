@@ -2,14 +2,11 @@
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
 $APPLICATION->SetTitle('Главная');
 ?> 
-длтдлтдлтдлт
-дльдльдльдль
-дтлтлот
+проверка
 
 
 
-;jlkjnlkj
-knlknlkn
+
 <?
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');
 ?>
