@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="kombass.online" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="kombass.online">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/kombass.online/public_html" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/kombass.online/public_html/bitrix" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: local("fonts/TeX Gyre Heros"), local("fonts/TeXGyreHeros-Regular"), url("fonts/texgyreheros.woff2") format("woff2"), url("fonts/texgyreheros.woff") format("woff"), url("fonts/texgyreheros.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: local("TeX Gyre Heros Italic"), local("fonts/TeXGyreHeros-Italic"), url("fonts/texgyreherositalic.woff2") format("woff2"), url("fonts/texgyreherositalic.woff") format("woff"), url("fonts/texgyreherositalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: local("TeX Gyre Heros Bold"), local("fonts/TeXGyreHeros-Bold"), url("fonts/texgyreherosbold.woff2") format("woff2"), url("fonts/texgyreherosbold.woff") format("woff"), url("fonts/texgyreherosbold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'TeX Gyre Heros';
+  src: local("TeX Gyre Heros Bold Italic"), local("fonts/TeXGyreHeros-BoldItalic"), url("fonts/texgyreherosbolditalic.woff2") format("woff2"), url("fonts/texgyreherosbolditalic.woff") format("woff"), url("fonts/texgyreherosbolditalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("fonts/fontawesome-webfont.eot?v=4.6.2");
+  src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.6.2") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff2?v=4.6.2") format("woff2"), url("fonts/fontawesome-webfont.woff?v=4.6.2") format("woff"), url("fonts/fontawesome-webfont.ttf?v=4.6.2") format("truetype"), url("fonts/fontawesome-webfont.svg?v=4.6.2#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Rockwell italic';
+  src: url("fontie-package/Rockwell-BoldItalic.eot");
+  src: url("fontie-package/Rockwell-BoldItalic.eot?#iefix") format("embedded-opentype"), url("fontie-package/Rockwell-BoldItalic.woff2") format("woff2"), url("fontie-package/Rockwell-BoldItalic.woff") format("woff"), url("fontie-package/Rockwell-BoldItalic.svg#Rockwell-BoldItalic") format("svg");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE; }
+@font-face {
+  font-family: 'Rockwell Bold';
+  src: url("Rockwell-BoldItalic.eot");
+  src: url("Rockwell-BoldItalic.eot?#iefix") format("embedded-opentype"), url("Rockwell-BoldItalic.woff2") format("woff2"), url("Rockwell-BoldItalic.woff") format("woff"), url("Rockwell-BoldItalic.svg#Rockwell-BoldItalic") format("svg");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE; }
+/* ОСНОВНЫЕ СТИЛИ */
+* {
+  margin: 0;
+  padding: 0; }
+
+.clearfix {
+  clear: both; }
+
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto; }
+
+.header {
+  height: 170px;
+  overflow: hidden;
+  background: url("/img/uu.jpg"), #95cbcb;
+  background-size: 4.3px; }
+  .header p {
+    font-family: Arial;
+    font-size: 13px;
+    color: #afc2da;
+    line-height: 44px;
+    float: left; }
+  .header ul {
+    line-height: 40px; }
+  .header li {
+    width: 25px;
+    height: 25px;
+    list-style: none;
+    margin: 10px 0px 0px 7px;
+    display: inline-block; }
+    .header li:hover {
+      border-radius: 50%;
+      background: #3d5778; }
+    .header li .fa-facebook {
+      color: white;
+      position: relative;
+      bottom: 7px;
+      left: 9px;
+      font-size: 12px; }
+    .header li .fa-vk {
+      color: white;
+      position: relative;
+      bottom: 8px;
+      left: 6px;
+      font-size: 12px; }
+    .header li .fa-envelope {
+      color: white;
+      position: relative;
+      bottom: 8px;
+      left: 7px;
+      font-size: 12px; }
+    .header li .fa-instagram {
+      color: white;
+      position: relative;
+      bottom: 8px;
+      left: 8px;
+      font-size: 12px; }
+  .header .phone {
+    font-family: Rockwell Bold;
+    font-size: 20px;
+    color: white;
+    padding: 6px 0px 0px 0px; }
+    .header .phone a {
+      position: relative;
+      left: 10px;
+      text-decoration: none;
+      color: white;
+      font-family: "Rockwell Bold";
+      font-size: 20px; }
+  .header .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 44px; }
+    .header .flex-container .carzina {
+      margin: 0 1px; }
+      .header .flex-container .carzina a {
+        width: 86px;
+        height: 20px;
+        color: white;
+        text-decoration: none;
+        padding: 2px 8px;
+        outline: none;
+        border-width: 2px 0;
+        border-style: solid none;
+        border-color: #FDBE33 #000 #D77206;
+        border-radius: 10px 2px 0px 10px;
+        background: linear-gradient(#F3AE0F, #E38916) #E38916;
+        transition: 0.2s; }
+        .header .flex-container .carzina a .fa-shopping-cart {
+          position: relative;
+          right: 4px; }
+        .header .flex-container .carzina a span {
+          font-family: "Arial"; }
+    .header .flex-container .carzina_money a {
+      width: 86px;
+      height: 20px;
+      color: white;
+      text-decoration: none;
+      padding: 2px 15px;
+      outline: none;
+      border-width: 2px 0;
+      border-style: solid none;
+      border-color: #FDBE33 #000 #D77206;
+      border-radius: 0px 10px 10px 0px;
+      background: linear-gradient(#F3AE0F, #E38916) #E38916;
+      transition: 0.2s; }
+      .header .flex-container .carzina_money a span:before {
+        content: '$';
+        clear: both;
+        position: relative;
+        right: 2px;
+        top: 0px; }
+  .header .header_top {
+    height: 50px;
+    border-bottom: 10px solid transparent;
+    background-image: linear-gradient(#577194, #577194), linear-gradient(to bottom right, transparent 50.5%, #577194 50.5%), linear-gradient(to bottom left, transparent 50.5%, #577194 50.5%), linear-gradient(to top right, transparent 50.5%, #577194 50.5%), linear-gradient(to top left, transparent 50.5%, #577194 50.5%);
+    background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+    background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+    background-clip: padding-box, border-box, border-box, border-box, border-box;
+    background-origin: padding-box, border-box, border-box, border-box, border-box; }
+
+.header_panel .logo {
+  background: url("/img/logo1.png");
+  height: 113px;
+  width: 117px;
+  position: absolute;
+  top: -10px; }
+.header_panel p {
+  color: #D9492A;
+  font-size: 20px;
+  font-family: "Rockwell Bold"; }
+
+.gg {
+  background: repeating-linear-gradient(-45deg, transparent, transparent 9px, rgba(143, 77, 63, 0.1) 1px, rgba(143, 77, 63, 0.1) 10px), repeating-linear-gradient(45deg, transparent, transparent 9px, rgba(143, 77, 63, 0.1) 1px, rgba(143, 77, 63, 0.1) 10px);
+  height: 500px;
+  background-color: #f7f5c7;
+  opacity: 0.5; }
+
+/*# sourceMappingURL=template_styles.css.map */
