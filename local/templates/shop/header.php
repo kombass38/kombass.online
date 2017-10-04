@@ -97,7 +97,7 @@
                        <div class="logo"> <a href=""><p>fondie</p><span>shop</span></a></div>
                     </div>
                     <div class="col-lg-8">
-                        kmlk
+                        kmlklkmlkmlkmlkm
                     </div>
                     <div class="col-lg-2">
                         ljnjlnljn
